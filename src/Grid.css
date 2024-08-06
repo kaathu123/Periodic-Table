@@ -1,0 +1,44 @@
+.containergrid {
+    display: grid;
+    grid-template-areas: 'item1 item2 item2 item2'
+                         'item1 item3 item3 item3 '
+                         'item1  item3 item3 item3'
+                         'item1  item3 item3 item3'
+                         'item4 item4 item4 item4';
+    height: 100vh;
+
+
+
+
+
+    .item1 {
+
+        border: 1px solid black;
+        grid-area: item1;
+
+
+    }
+
+    .item2 {
+
+        border: 1px solid black;
+        grid-area: item2;
+
+
+    }
+
+    .item3 {
+
+
+        border: 1px solid black;
+        grid-area: item3;
+
+
+
+    }
+
+    .item4 {
+        border: 1px solid black;
+        grid-area: item4;
+    }
+}
